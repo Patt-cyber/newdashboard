@@ -68,8 +68,8 @@ visualizations <- create_page("Descriptives", data = data_num) %>%
 # 3. THIRD LAYER: CREATE DASHBOARD 
 patri_dashboard <- create_dashboard(
   title = "Gender Effort Project",
-  output_dir = "Mydashboard",
-  publish_dir = "docs",
+  output_dir = "Newdashboard",
+  publish_dir = "/docs",
   theme = "cosmo"
 ) %>%
   add_pages(home, visualizations)
